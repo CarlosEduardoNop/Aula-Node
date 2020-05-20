@@ -16,8 +16,6 @@ app.get('/', (req,res) =>{
         description: 'Build native app with ...',
         url: 'http://github.com/facebook/react-native'
     });
-
-    return res.send('Hello Worl')
 });
 
 app.listen(3001);
